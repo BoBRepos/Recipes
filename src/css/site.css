@@ -1,0 +1,6 @@
+.hidden {
+    display: none;
+}
+.border-wall {
+    border-left: 1px solid black;
+}

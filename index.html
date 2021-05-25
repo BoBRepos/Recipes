@@ -5,8 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BoB Recipes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link hred="src/css/site.css" rel="stylesheet">
 </head>
 <body>
-    <h1>BoB Recipes</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1>BoB Recipes</h1>
+            </div>
+        </div>
+        <div id="recipeCard">
+            <div class="row">
+                <div class="col">
+                    <h3 class="title">Title</h3>
+                </div>
+            </div>
+            <hr />
+            <div class="row">
+                <div class="col-md-12 col-lg-6 ingredients">
+                    <strong>Ingredients</strong>
+                    <ul>
+                        <li>First Ingredient</li> 
+                        <li>Second Ingredient</li> 
+                        <li>Third Ingredient</li> 
+                    </ul>
+                    <hr class="d-lg-none" />
+                </div>
+                <div class="col-md-12 col-lg-6 instructions">
+                    <strong>Instructions</strong>
+                    <ol>
+                        <li>First Instruction</li> 
+                        <li>Second Instruction</li> 
+                        <li>Third Instruction</li> 
+                    </ol>
+                </div>
+            </div>
+            <hr />
+            <div class="row images">
+                <strong>Images</strong>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="module" src="./src/javascript/site.js"></script>
 </body>
 </html>
